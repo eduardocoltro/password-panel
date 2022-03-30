@@ -28,8 +28,7 @@ def verificaOpcao():
 
 def menu():
     global opcaoDesejada
-    opcaoDesejada = int(input(
-        "Tecle 1 se você quer obter uma nova senha | Tecle 2 se você quer realizar uma nova senha | Tecle 3 se você quer obter senhas já realizadas: "))
+    opcaoDesejada = int(input("Tecle 1 se você quer obter uma nova senha | Tecle 2 se você quer realizar uma nova senha | Tecle 3 se você quer obter senhas já realizadas: "))
     verificaOpcao()
 
 menu()
