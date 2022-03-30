@@ -14,7 +14,7 @@ def verificaOpcao():
 
     elif opcaoDesejada == 2:
         senhas.append(fila._vet[0])
-        print(F"Sua senha no momento é {fila._vet[0]} ")
+        print(f"Sua senha no momento é {fila._vet[0]} ")
         fila.dequeue()
         menu()
 
@@ -23,7 +23,7 @@ def verificaOpcao():
         menu()
 
     else:
-        print("Esta opção não existe, tente novamente ")
+        print(f"Esta opção não existe, tente novamente ")
         menu()
 
 def menu():
